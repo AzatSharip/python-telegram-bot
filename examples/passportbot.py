@@ -85,7 +85,7 @@ def error(update, context):
 def main():
     """Start the bot."""
     # Create the Updater and pass it your token and private key
-    updater = Updater("TOKEN", private_key=open('private.key', 'rb').read())
+    updater = Updater("1001253586:AAF0dtLaEu_RKkaVuJQVjb3rTF1jrmgJ4-I", private_key=open('private.key', 'rb').read())
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
